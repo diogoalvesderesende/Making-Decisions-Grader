@@ -143,6 +143,6 @@ Provide feedback in these ways:
         max_tokens=500,  # Set a suitable limit for response length
         temperature=0,
         )
-    feedback = print(response.choices[0].message.content)
+    feedback = response.choices[0].message.content
     
     return feedback
