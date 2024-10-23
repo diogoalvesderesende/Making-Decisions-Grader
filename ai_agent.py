@@ -1,3 +1,6 @@
+from openai import OpenAI
+client = OpenAI()
+
 def get_feedback(answer, question_number):
     # Define the acceptance criteria and prompts for each question
     system_prompt = {
